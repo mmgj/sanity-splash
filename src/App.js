@@ -34,14 +34,14 @@ function App() {
     loadData();
   }, []);
   return (
-    <main className='transition-container' style={{ width: '100vw' }}>
+    <main className='transition-container'>
       <CornerKitty />
       <Card
         paddingX={isTinyScreen ? 4 : 4}
         paddingY={4}
         paddingBottom={8}
         style={{
-          width: isTinyScreen ? '100%' : '90%',
+          width: '100%',
           maxWidth: 980,
           minHeight: '100vh',
           margin: '0 auto',

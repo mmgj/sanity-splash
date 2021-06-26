@@ -19,7 +19,11 @@ const StyledHR = styled.hr`
 `;
 
 const ItemLine = ({ label, value, index }) => (
-  <Card padding={2} style={{ background: index % 2 ? '#fff' : '#f2f2f2' }}>
+  <Card
+    className='react-transition'
+    padding={2}
+    style={{ background: index % 2 ? '#fff' : '#f2f2f2' }}
+  >
     <Flex justify='space-between' align='center'>
       <Box marginY={2} paddingLeft={2}>
         <Text weight='medium'>{label}:</Text>
@@ -136,7 +140,7 @@ const Personalia = () => {
             </Box>
             {[
               ['Backend', 'Sanity'],
-              ['Frontend', 'create-react-app'],
+              ['Front end', 'create-react-app'],
               ['Host', 'Vercel'],
               ['UI', 'Sanity'],
               ['Styling', 'styled-components (mostly)'],

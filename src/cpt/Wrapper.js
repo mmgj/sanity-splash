@@ -9,7 +9,12 @@ const Wrapper = ({ heroImage, heroType, children }) => {
       {heroImage !== null && (
         <HeroImage imageNode={heroImage}>
           {heroType && heroType.length > 0 && (
-            <HeroType style={{ textAlign: 'right', marginBottom: 20 }}>
+            <HeroType
+              style={{
+                textAlign: 'right',
+                marginBottom: 20,
+              }}
+            >
               {heroType}
             </HeroType>
           )}
