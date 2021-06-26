@@ -136,7 +136,7 @@ const Personalia = () => {
             </Box>
             {[
               ['Backend', 'Sanity'],
-              ['Front-end', 'create-react-app'],
+              ['Frontend', 'create-react-app'],
               ['Host', 'Vercel'],
               ['UI', 'Sanity'],
               ['Styling', 'styled-components (mostly)'],
